@@ -2,10 +2,10 @@
 
 	$$ various math projects $$
 
-01. fibonacci sequence 
-02. binary to decimal
-03. calculate and print factorial of 100
-04. area calculator
+01. fibonacci sequence 				$$ fibonacci.py $$
+02. binary to decimal				$$ bintodec.py $$
+03. calculate and print factorial of 100	$$ factorial.py $$
+04. area calculator				$$ area.py $$
 05. benford's law
 06. find largest number in array and print pos
 07. finding binomial coeficcient
