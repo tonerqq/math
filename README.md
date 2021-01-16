@@ -20,4 +20,5 @@
 16. hailstone sequence
 17. dot and cross of two vectors 
 18. sierpinski triangle
-19. fast-fourier transform (brb learning cal)
+19. collatz conjecture
+20. fast-fourier transform (brb learning cal)
