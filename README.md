@@ -2,7 +2,7 @@
 
 	$$ various math projects $$
 
-01. fibonacci sequence 				$$ fibonacci.py $$
+01. fibonacci sequence 				``` fibonacci.py ```
 02. binary to decimal				$$ bintodec.py $$
 03. calculate and print factorial of 100	$$ factorial.py $$
 04. area calculator				$$ area.py $$
