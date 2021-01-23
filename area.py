@@ -22,15 +22,19 @@ user_shape = input(" ENTER NUMBER : ")
 
 # isosceles triangle module ( A = (b*h) / 2 )
 def isosceles_triangle(base, height, area):
-    if (str(base) == null):
-        # 
-    elif (str(height) == null):
-        #
-    elif (str(area) == null):
-        # main juice
+    ans = "ERROR"
+    if (str(base) == "null"):
+        ans = ((2 * int(area)) / int(height))
+    elif (str(height) == "null"):
+        ans = ((2 * int(area)) / int(base))
+    elif (str(area) == "null"):
+        ans = ((int(base) * int(height)) / 2)
     else:
         print(" ERROR : invalid input! exiting...")
         sys.exit()
+    print("\n ANSWER IS : " + str(ans))
+
+# right angle triangle module 
 
 # initial shape selection handler
 def shape_choice(choice):
@@ -46,9 +50,9 @@ def shape_choice(choice):
 	print(" /    |    \ ")
 	print("/_____|_____\ ") 
 	print("      B ")
-	base = input("\n ENTER B : ")
-	height = input(" ENTER h : ")
-	area = input(" ENTER area : ")
+	base = raw_input("\n ENTER B : ")
+	height = raw_input(" ENTER h : ")
+	area = raw_input(" ENTER area : ")
 	isosceles_triangle(base, height, area)
     elif (choice == "2"):
         ra_triangle()
